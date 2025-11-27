@@ -57,4 +57,4 @@ if user_input:
             st.markdown(reply)
 
     # Save assistant reply
-    st.session_state["messages"].append({"role": "assistant", "content": reply})```
+    st.session_state["messages"].append({"role": "assistant", "content": reply})
