@@ -12,7 +12,7 @@ if api_key is None:
     st.error("OPENAI_API_KEY is not set. Please add it in Streamlit Cloud → Settings → Secrets.")
     st.stop()
 
-client = OpenAI(api_key=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)
+client = OpenAI(api_key= api_key)
 
 # Initialise chat history
 if "messages" not in st.session_state:
